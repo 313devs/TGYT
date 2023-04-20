@@ -14,6 +14,8 @@ import (
 
 func isYoutubeLink(rawurl string) bool {
 	u, err := url.Parse(rawurl)
+
+	
 	if err != nil {
 		return false
 	}
